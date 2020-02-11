@@ -10,7 +10,7 @@ function shadow(e) {
         x = x + e.target.offsetLeft;
         y = y + e.target.offsetTop;
     }
-
+    const xWalk = (x / width * walk) - (walk / 2);
 }
 
 hero.addEventListener('mousemove', shadow);
